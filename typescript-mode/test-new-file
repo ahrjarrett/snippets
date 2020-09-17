@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: test-new-file (jest)
+# uuid: new-test-file
+# key: Test
+# --
+
+import {$1} from './$1'
+
+test('$2', () => {
+  expect($3).toBe(false)
+})

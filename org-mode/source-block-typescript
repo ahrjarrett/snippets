@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: source-block-typescript
+# uuid: source-block-typescript
+# key: <ts
+# condition: t
+# --
+
+#+BEGIN_SRC typescript
+$0
+#+END_SRC

@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: title-tag
+# uuid: title-tag (org)
+# key: title
+# condition: t
+# --
+
+#+TITLE: ${1: `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}
+#+AUTHOR: Andrew Jarrett <ahrjarrett@gmail.com>
+
+${2: Add today's timestamp with =C-c .=}
+
+* $1
+
+
